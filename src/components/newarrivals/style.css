@@ -1,0 +1,27 @@
+.heading img {
+  width: 40px;
+  height: 40px;
+}
+
+#blacked{
+  color: #000;
+}
+.NewArrivals h4 {
+  font-weight: 400;
+}
+.NewArrivals span {
+  color: rgb(10, 18, 68);
+  font-size: 15px;
+  font-weight: 500;
+}
+.NewArrivals .box img {
+  width: 100%;
+  height: 100%;
+}
+.NewArrivals{
+  background:	#c0c5ce;
+}
+
+h2{
+  color: white;
+}

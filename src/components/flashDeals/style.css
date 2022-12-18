@@ -1,0 +1,26 @@
+.flash {
+  background: #4f5b66;
+  padding: 50px 0;
+}
+
+ h1{
+  color: white;
+}
+.mtop{
+  background-color: #858c94c1;
+  transition: 0.3s;
+  box-shadow:0px 10px 5px rgba(0,0,0,0.15);
+  
+}
+.mtop:hover{
+  scale: 1.01;
+  opacity: 0.8;
+  
+}
+.next
+{
+  box-shadow:0px 1px 5px 2.5px rgba(1,1,1,0.25);
+}
+.prev{
+  box-shadow:0px 1px 5px 2.5px rgba(1,1,1,0.25);
+}

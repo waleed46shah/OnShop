@@ -1,0 +1,75 @@
+.shop .category {
+  padding: 20px;
+  height: 90vh;
+  background:#ffffff;
+
+}
+#blacked{
+  color: #000;
+}
+.chead h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.chead h1:nth-child(2) {
+  opacity: 0.5;
+  border-left: 3px solid rgba(0, 0, 0, 0.5);
+  padding-left: 70px;
+}
+.shop .category .box {
+  background-color: #fdfdfd;
+  margin: 15px 0;
+  padding: 5px 10px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.shop .category img {
+  width: auto;
+  height: auto;
+}
+.shop .category .box:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 16px;
+  scale: 1.02;
+  opacity: 0.95;
+}
+.shop .box2 {
+  margin-top: 100px !important;
+  text-align: center;
+  
+}
+.shop .category button {
+  padding: 10px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  background:#c0c5ce;
+  width: 100%;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.shop .category button:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 16px;
+  scale: 1.02;
+  opacity: 0.9;
+}
+.shop .contentWidth {
+  margin-left: 30px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.shop .product img {
+  width: 100%;
+  height: 100%;
+}
+.shop .product {
+  transition: 0.5s;
+}
+.shop .product:hover {
+  scale: 1.02;
+  opacity: 0.9;
+}
